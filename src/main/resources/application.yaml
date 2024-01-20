@@ -1,0 +1,10 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: bank-api-gateway-service
+  cloud:
+    gateway:
+      discovery:
+        locator: true
