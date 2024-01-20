@@ -7,4 +7,7 @@ spring:
   cloud:
     gateway:
       discovery:
-        locator: true
+        locator:
+          enabled: true
+          lower-case-service-id: true
+`
